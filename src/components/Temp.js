@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import db from "../config/firebaseConfig";
 import AddTask from "../components/tasks/AddTask";
 import Task from "./tasks/Task";
+import Tasks from "./tasks/Tasks";
 
 export default function Tempdisplay(props) {
   const [
@@ -27,11 +28,14 @@ export default function Tempdisplay(props) {
     });
     console.log("deleted");
   }
-
+  
   return (
     <div>
       <AddTask />
-      <table class="table table-hover">
+      <table 
+      class="table table-dark table-hover containe"
+      style={{marginTop: "30px"}}
+      >
         <thead>
           <tr>
             <th scope="col">Task</th>

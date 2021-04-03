@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
     <NavBar />
       <Switch>
-        <Route exact path = "/" component = {Tempdisplay}/>
+        <Route path = "/" component = {Tempdisplay}/>
         <Route path="/signin" component={SignIn} />
         <Route path="/signup" component={SignUp} />
         {/* <Route path="/" component={Dashboard} /> */}

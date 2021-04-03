@@ -2,4 +2,4 @@
 
 ## To run the project
 
-[Click Here To See the deployed project] (http://azhanali.github.io/todo-app)
+[Click Here](http://azhanali.github.io/todo-app)  To See the deployed project
